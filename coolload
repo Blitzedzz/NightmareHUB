@@ -905,8 +905,6 @@ function Kavo.CreateLib(kavName, themeList)
                             BackgroundColor3 = Color3.fromRGB(themeList.ElementColor.r * 255 + 8, themeList.ElementColor.g * 255 + 9, themeList.ElementColor.b * 255 + 10)
                         }):Play()
                         hovering = true
-               		TextBox.Text = "rbxassetid://"
-			print("test")
                     end 
                 end)
 
