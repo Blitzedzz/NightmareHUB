@@ -906,6 +906,7 @@ function Kavo.CreateLib(kavName, themeList)
                         }):Play()
                         hovering = true
                		TextBox.Text = "rbxassetid://"
+			print("test")
                     end 
                 end)
 
