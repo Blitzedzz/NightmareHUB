@@ -640,7 +640,7 @@ function Kavo.CreateLib(kavName, themeList)
                 moreInfo.RichText = true
                 moreInfo.TextColor3 = themeList.TextColor
                 Objects[moreInfo] = "TextColor3"
-                moreInfo.TextSize = 14.000
+                moreInfo.TextSize = 12.000
                 moreInfo.TextXAlignment = Enum.TextXAlignment.Left
                 Objects[moreInfo] = "BackgroundColor3"
 
