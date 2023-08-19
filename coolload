@@ -1343,7 +1343,7 @@ function Kavo.CreateLib(kavName, themeList)
                 moreInfo.Font = Enum.Font.GothamSemibold
                 moreInfo.Text = "  "..slidTip
                 moreInfo.TextColor3 = themeList.TextColor
-                moreInfo.TextSize = 14.000
+                moreInfo.TextSize = 10.000
                 moreInfo.RichText = true
                 moreInfo.TextXAlignment = Enum.TextXAlignment.Left
 
