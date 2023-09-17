@@ -1,1 +1,15 @@
 
+
+local player = game.Players.LocalPlayer
+ local mouse = player:GetMouse()
+ mouse.KeyDown:Connect(function(Key) 
+ if Key == "q" then
+		local humanoid = player.Character:FindFirstChildWhichIsA("Humanoid")
+	humanoid.Sit = true
+	task.wait(0.1)
+	humanoid.RootPart.CFrame = humanoid.RootPart.CFrame * CFrame.Angles(math.pi * 0.5, 0, 0)
+	for _, v in ipairs(humanoid:GetPlayingAnimationTracks()) do
+		v:Stop()
+ end  
+end
+end)
