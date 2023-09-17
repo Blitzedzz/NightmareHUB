@@ -13,10 +13,3 @@ local player = game.Players.LocalPlayer
  end  
 end
 end)
- mouse.KeyDown:Connect(function(Key2) 
- if Key2 == "e" then
-	humanoid.Sit = false
-
- end  
-end
-end)
